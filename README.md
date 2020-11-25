@@ -15,10 +15,15 @@ A list of research questions you would like to address during the project.
 List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.
 
 Our dataset :
+
 https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666
+
 Choosen datasets :
+
 https://data.london.gov.uk/dataset/earnings-place-residence-borough 
+
 https://data.london.gov.uk/dataset/employment-rates-by-gender-and-age 
+
 https://data.london.gov.uk/dataset/children-poverty-borough 
 
 
