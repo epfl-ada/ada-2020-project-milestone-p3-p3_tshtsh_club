@@ -36,9 +36,9 @@ Datasets that we want to use:
 
 
 ## 7. Organization within the team
-Marie: crawling the data, preliminary data analysis + data story/report
-Sofia: data analysis (correlations and linear regressions) + video pitch
-Héloïse: validating and plotting the results + data story/report
+- Marie: crawling the data, preliminary data analysis + data story/report
+- Sofia: data analysis (correlations and linear regressions) + video pitch
+- Héloïse: validating and plotting the results + data story/report
 
 
 ## 8. Questions for TAs 
