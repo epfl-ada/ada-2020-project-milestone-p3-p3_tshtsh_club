@@ -20,7 +20,7 @@ List the dataset(s) you want to use, and some ideas on how you expect to get, ma
 
 Paper dataset :
 
-[Tesco Grocery 1.0 dataset] (https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2)
+[Tesco Grocery 1.0 dataset](https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2)
 
 Chosen datasets :
 
