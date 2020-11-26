@@ -26,7 +26,7 @@ Datasets that we want to use:
 
 ## 5. Methods
 - We will compute the Spearman Rank correlation between entropy of nutrients and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- We will then run a linear regression to predict the entropy of nutrients from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the $R^2$ coefficient, it will indicate that these economic factors are representative of the food diet. 
+- We will then run a linear regression to predict the entropy of nutrients from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2 coefficient, it will indicate that these economic factors are representative of the food diet. 
 
 
 ## 6. Proposed timeline
