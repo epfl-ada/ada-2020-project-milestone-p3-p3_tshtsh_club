@@ -4,14 +4,14 @@
 
 
 ## 2. Abstract
-A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why? 
-Keeping a healthy diet is a part of having a healthy life and helps avoiding food-related illnesses such as diabetes and obesity. However, the price of the food products influences greatly the decisions of individuals. Thus, we ask ourselves: do people have an equal chance in having a healty diet? We explore the link between the economic situations of households and their food purchases in the boroughs of Greater London, Britain. To measure the level of wealth in each area, we study the economic factors of incomes, employment rates and children poverty.
+[comment]: <> (A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?)
+Keeping a good and balanced diet is fundamental to having a healthy life as it helps avoiding food-related illnesses such as diabetes, obesity and cardiovascular diseases. However, the price of the food products influences greatly the decisions of individuals in purchasing them or not. There is a strong belief amongst consumers that more expensive products are healthier than cheaper ones, even this is not always true. Thus, we ask ourselves: do people have an equal chance in maintaining a nutritious diet and thus a healthy life? We explore the link between the economic situations of households and their food purchases in the boroughs of Greater London, Britain. To measure the level of wealth in each area, we study the economic factors such as incomes, employment rates and children poverty per borough provided by the London Datastore. We compare them to the nutritional properties of each borough’s typical product given in the Tesco Grocery 1.0 dataset. 
+
 
 ## 3. Research Questions
 A list of research questions you would like to address during the project.
 - What is the proportion of food related expenditure in each borough?
 - How does a healthy diet relates to one's economic situation?
-- 
 
 
 ## 4. Proposed dataset
