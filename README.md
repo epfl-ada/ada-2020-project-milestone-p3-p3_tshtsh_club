@@ -36,8 +36,10 @@ Datasets that we want to use:
 
 
 ## 7. Organization within the team
-A list of internal milestones up until project milestone P4. Add here a sketch of your planning for the next project milestone.
+Marie: crawling the data, preliminary data analysis + data story/report
+Sofia: data analysis (correlations and linear regressions) + video pitch
+Héloïse: validating and plotting the results + data story/report
 
 
-## 8. Questions for TAs (optional)
-Add here any questions you have for us related to the proposed project.
+## 8. Questions for TAs 
+??
