@@ -5,7 +5,8 @@
 
 ## 2. Abstract
 [comment]: <> (A 150 word description of the project idea, goals, datasets used. What's the motivation behind your project? How do you propose to extend the analysis from the paper? What story would you like to tell, and why?)
-Keeping a good and balanced diet is fundamental to having a healthy life as it helps avoiding food-related illnesses such as diabetes, obesity and cardiovascular diseases. However, the price of the food products influences greatly the decisions of individuals in purchasing them or not. There is a strong belief amongst consumers that more expensive products are healthier than cheaper ones, even this is not always true. Thus, we ask ourselves: do people have an equal chance in maintaining a nutritious diet and thus a healthy life? We explore the link between the economic situations of households and their food purchases in the boroughs of Greater London, Britain. To measure the level of wealth in each area, we study the economic factors such as incomes, employment rates and children poverty per borough provided by the London Datastore. We compare them to the nutritional properties of each borough’s typical product given in the Tesco Grocery 1.0 dataset. 
+Keeping a good and balanced diet is fundamental to having a healthy life as it helps avoiding food-related illnesses such as diabetes, obesity and cardiovascular diseases. However, the price of the food products influences greatly the decisions of individuals in purchasing them or not. There is a strong belief amongst consumers that more expensive products are healthier than cheaper ones, even this is not always true. Thus, we ask ourselves: do people have an equal chance in maintaining a nutritious diet and thus a healthy life?
+We explore the link between the economic situations of households and their food purchases in the boroughs of Greater London, Britain. To measure the level of wealth in each area, we study the economic factors such as incomes, employment rates and children poverty per borough provided by the London Datastore. We compare them to the nutritional properties of each borough’s typical product given in the Tesco Grocery 1.0 dataset. 
 
 
 ## 3. Research Questions
@@ -23,6 +24,7 @@ Datasets that we want to use:
 - [Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We only consider the resident based median earnings weekly, averaged between full-time and part-time, in 2015.
 - [Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We only take into accout the percentage of children in low-income families in 2015.
 - [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We will transform the data concerning food in percentages of the total expenditure over the year 2015.
+- [Boroughs geolocalisation](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london)
 
 ## 5. Methods
 - We will compute the Spearman Rank correlation between entropy of nutrients and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
