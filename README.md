@@ -10,8 +10,9 @@ Keeping a good and balanced diet is fundamental to having a healthy life as it h
 
 ## 3. Research Questions
 A list of research questions you would like to address during the project.
+- How does each borough's typical product evolves over a whole year ?
 - What is the proportion of food related expenditure in each borough?
-- How does a healthy diet relates to one's economic situation?
+- How does a healthy diet relates to the borough's economic situation?
 
 
 ## 4. Proposed dataset
