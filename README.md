@@ -32,7 +32,7 @@ Datasets that we want to use:
 - We will visualize the evolution of the healthy diet score over the year and observe if patterns are apparent. 
 - We will visualize the healthy diet score differences between areas.
 - We will visualize the wealth differences between areas based on gross earnings.
-- - We will visualize the wealth differences between areas based on child poverty.
+- We will visualize the wealth differences between areas based on child poverty.
 - We will compute the Spearman Rank correlation between the food health scores and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
 - We will then run a linear regression to predict the food health scores from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
