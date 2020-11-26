@@ -28,8 +28,11 @@ Datasets that we want to use:
 - [Boroughs geolocalisation](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london)
 
 ## 5. Methods
-- We will compute the Spearman Rank correlation between entropy of nutrients and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- We will then run a linear regression to predict the entropy of nutrients from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet. 
+- We will compute a food health score for each area over the year (détailler calcul).
+- We will visualize the evolution of the area's typical products composition and health score over the year and observe if patterns are apparent. 
+- We will visualize the wealth differences between areas based on gross earnings and child poverty.
+- We will compute the Spearman Rank correlation between the food health scores and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
+- We will then run a linear regression to predict the food health scores from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
 ## 6. Proposed timeline
