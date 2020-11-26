@@ -10,7 +10,7 @@ Keeping a good and balanced diet is fundamental to having a healthy life as it h
 
 ## 3. Research Questions
 Some research questions you would like to address during the project:
-- How does each borough's typical product evolves over a whole year ? (??)
+- How does each borough's typical product evolves over a whole year ?
 - What is the proportion of food related expenditure in each borough?
 - How does a healthy diet relates to the borough's economic situation?
 
@@ -18,17 +18,11 @@ Some research questions you would like to address during the project:
 ## 4. Proposed dataset
 List the dataset(s) you want to use, and some ideas on how you expect to get, manage, process, and enrich it/them. Show us that you've read the docs and some examples, and that you have a clear idea on what to expect. Discuss data size and format if relevant. It is your responsibility to check that what you propose is feasible given the datasets at hand.
 
-Paper dataset :
-
-[Tesco Grocery 1.0 dataset](https://figshare.com/collections/Tesco_Grocery_1_0/4769354/2)
-
-Chosen datasets :
-
-[Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough) 
-
-[Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough)
-
-[London Consumer Expenditure Estimates](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036)
+Datasets that we want to use:
+- [Grocery purchases, Borough](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
+-[Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We only consider the resident based median earnings weekly, averaged between full-time and part-time, in 2015.
+-[Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We only take into accout the percentage of children in low-income families in 2015.
+-[London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We only look at the 2015 data.
 
 ## 5. Methods
 
