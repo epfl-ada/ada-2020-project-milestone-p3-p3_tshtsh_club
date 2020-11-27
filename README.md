@@ -14,8 +14,7 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 - What is the proportion of food related expenditure in each borough? How does it relate to its economic situation?
 - How does a healthy diet relates to the borough's economic situation? Is this connection area-dependent?
 
-## 4. Proposed dataset
-Datasets that we will use:
+## 4. Proposed datasets
 - [Grocery purchases, Borough](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
 - [Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We will only consider the resident based median earnings weekly, averaged between full-time and part-time, in 2015.
 - [Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We will only take into accout the percentage of children in low-income families in 2015.
