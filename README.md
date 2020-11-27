@@ -10,6 +10,7 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 
 
 ## 3. Research Questions
+- What constitutes a healthy diet?
 - What is the proportion of food related expenditure in each borough? How does it relate to its economic situation?
 - How does a healthy diet relates to the borough's economic situation? Is this connection area-dependent?
 
@@ -25,6 +26,7 @@ Datasets that we will use:
 - Visualize the wealth differences between areas based on gross earnings and child poverty.
 - Visualize the proportion of food related expenditure in each borough.
 - Compute the Spearman rank correlation between the proportion of food related expenditure and the wealth across areas.
+- Compute a healthy diet score based on the nutritional properties of each borough’s typical.
 - Visualize the healthy diet score differences between areas.
 - Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
 - Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
@@ -43,4 +45,4 @@ Datasets that we will use:
 
 
 ## 8. Questions for TAs 
-??
+
