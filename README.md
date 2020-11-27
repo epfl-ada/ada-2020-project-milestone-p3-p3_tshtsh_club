@@ -25,11 +25,9 @@ Datasets that we will use:
 - Visualize the wealth differences between areas based on gross earnings and child poverty.
 - Visualize the proportion of food related expenditure in each borough.
 - Compute the Spearman rank correlation between the proportion of food related expenditure and the wealth across areas.
-
-
 - Visualize the healthy diet score differences between areas.
-- We will compute the Spearman Rank correlation between the food health scores and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- We will then run a linear regression to predict the food health scores from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
+- Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
+- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
 ## 6. Proposed timeline
