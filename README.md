@@ -29,7 +29,7 @@ Datasets that we will use:
 - Compute a healthy diet score based on the nutritional properties of each borough’s typical product.
 - Visualize the healthy diet score differences between areas.
 - Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the R<sup>2</sup> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
+- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup>…</i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
 ## 6. Proposed timeline
@@ -46,7 +46,7 @@ Datasets that we will use:
 
 ## 8. Questions for TAs 
 We thought at two different ways to compute the healthy diet score:
-- only take into account the energy from carbs (energy-carbs) and the entropy of nutrients (H<sub>energy-nutrients</sub>), the two-highest correlated factors with the prevalence of diabetes, as seen in the paper
+- only take into account the energy from carbs (<i>energy-carbs</i>) and the entropy of nutrients (<i>H<sub>energy-nutrients</sub></i>), the two-highest correlated factors with the prevalence of diabetes, as seen in the paper
 - use the recommendations from the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/healthy-diet): total fat should not exceed 30% of total energy intake, intake of saturated fats should be less than 10% of total energy intake, intake of free sugars should be less than 10% of total energy intake, salt intake should be less than 5 g per day, etc...
 
-The problem with the latter is: how can we validate that the computed healthy diet score is representative of the people health in an unbiased manner? 
+The problem with the latter is: how can we validate that the computed healthy diet score is representative of the people health in an unbiased manner? Do you think it is possible?
