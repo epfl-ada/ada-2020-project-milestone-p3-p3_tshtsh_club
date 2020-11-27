@@ -29,7 +29,7 @@ Datasets that we will use:
 - Compute a healthy diet score based on the nutritional properties of each borough’s typical product.
 - Visualize the healthy diet score differences between areas.
 - Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup>…</i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
+- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup></i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
 ## 6. Proposed timeline
