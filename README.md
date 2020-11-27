@@ -10,9 +10,7 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 
 
 ## 3. Research Questions
-- What constitutes a healthy diet?
-- How does the average borough's typical product evolve over a whole year?
-- What is the proportion of food related expenditure in each borough and how does it relate to its economic situation?
+- What is the proportion of food related expenditure in each borough? How does it relate to its economic situation?
 - How does a healthy diet relates to the borough's economic situation? Is this connection area-dependent?
 
 ## 4. Proposed dataset
