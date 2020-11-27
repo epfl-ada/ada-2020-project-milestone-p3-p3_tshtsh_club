@@ -34,8 +34,8 @@ Datasets that we will use:
 
 ## 6. Proposed timeline
 - 27th of November - 4th of December:  creative extension analysis notebook
-- 4th of December - 11th of December: creative extension data story/report
-- 11th of December - 18th of December: creative extension video pitch and individual update of the replication notebook 
+- 4th of December - 11th of December: creative extension data story/report and video pitch
+- 11th of December - 18th of December: individual update of the replication notebook 
 
 
 ## 7. Organization within the team
