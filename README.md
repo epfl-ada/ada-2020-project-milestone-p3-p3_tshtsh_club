@@ -39,9 +39,9 @@ Datasets that we will use:
 
 
 ## 7. Organization within the team
-- Marie: crawling the data, preliminary data analysis + data story/report
-- Sofia: data analysis (correlations and linear regressions) + video pitch
-- Héloïse: plotting the results, map visualization + data story/report
+- Marie: wrangling the data, computing the health diet score + data story/report
+- Sofia: computing the correlations and fitting the linear regressions + video pitch
+- Héloïse: map visualization, plotting the results + data story/report
 
 
 ## 8. Questions for TAs 
