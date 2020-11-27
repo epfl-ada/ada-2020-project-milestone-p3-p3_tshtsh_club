@@ -1,6 +1,6 @@
 # Project P3 milestone
 
-## 1. Title : Born with a silver spoon? / Food (and money) for thought
+## 1. Title: Food (and money) for thought
 
 
 ## 2. Abstract
