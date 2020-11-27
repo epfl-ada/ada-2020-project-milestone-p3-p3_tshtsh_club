@@ -18,17 +18,17 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 - [Grocery purchases, Borough](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
 - [Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We will only consider the median weekly earnings per borough in 2015, averaged between full-time and part-time.
 - [Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We will only take into accout the percentage of children in low-income families per borough in 2015.
-- [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We will transform the data concerning food expenditure in percentages of the total expenditure over the year 2015.
+- [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We will transform the data concerning food expenditure in percentage of the total expenditure over the year 2015.
 - [Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london): geolocalization of London's areas. We will use the boundaries of the boroughs as at 2011 for visualization purposes.
 
 ## 5. Methods
 - Visualize the wealth differences between areas based on gross earnings and child poverty.
-- Visualize the proportion of food related expenditure in each borough.
+- Compute and visualize the proportion of food related expenditure in each borough.
 - Compute the Spearman rank correlation between the proportion of food related expenditure and the wealth across areas.
 - Compute a healthy diet score based on the nutritional properties of each borough’s typical product.
 - Visualize the healthy diet score differences between areas.
-- Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditures. 
-- Run a linear regression to predict the food health score from the highest correlated factors and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup></i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
+- Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditure. 
+- Run a linear regression to predict the food health score from the highest correlated factors found previously and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup></i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
 ## 6. Proposed timeline
