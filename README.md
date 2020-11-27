@@ -45,4 +45,6 @@ Datasets that we will use:
 
 
 ## 8. Questions for TAs 
-
+We thought at two different ways to compute the healthy diet score:
+- only take into account the energy from carbs (energy-carbs) and the entropy of nutrients (H<sub>energy-nutrients</sub>), the two-highest correlated factors with the prevalence of diabetes, as seen in the paper
+- use the recommendations from [WHO] (https://www.who.int/news-room/fact-sheets/detail/healthy-diet): total fat should not exceed 30% of total energy intake, intake of saturated fats should be less than 10% of total energy intake, limiting intake of free sugars to less than 10% of total energy intake, keeping salt intake to less than 5 g per day, etc...
