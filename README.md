@@ -45,8 +45,9 @@ Datasets that we will use:
 
 
 ## 8. Questions for TAs 
-We thought at two different ways to compute the healthy diet score:
-- only take into account the energy from carbs (<i>energy-carbs</i>) and the entropy of nutrients (<i>H<sub>energy-nutrients</sub></i>), the two-highest correlated factors with the prevalence of diabetes, as seen in the paper
-- use the recommendations from the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/healthy-diet): total fat should not exceed 30% of total energy intake, intake of saturated fats should be less than 10% of total energy intake, intake of free sugars should be less than 10% of total energy intake, salt intake should be less than 5 g per day, etc...
+We thought of several ways to compute the healthy diet score:
+- only take into account the energy from carbs (<i>energy-carbs</i>) and the entropy of nutrients (<i>H<sub>energy-nutrients</sub></i>), the two-highest correlated factors with the prevalence of diabetes, as seen in the paper.
+- use the recommendations from the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/healthy-diet): we compute n criterias that make a diet healthy and that are either 0 or 1 depending on if they are fulfilled or not: fat criteria (< 30% of total energy intake), saturated fat criteria fulfilled or not (< 10% of total energy intake), sugars criteria (< 10% of total energy intake), etc... We obtain a final score between 0 and n, out of n.
+- compute the score with a weighted sum of all the nutrients' energy. We choose those weights as the correlation coefficients with diabetes that are found in the Tesco paper. 
 
-The problem with the latter is: how can we validate that the computed healthy diet score is representative of the people health in an unbiased manner? Do you think it is possible?
+The problem is: how can we validate that the computed healthy diet score is representative of the people health in an unbiased manner? Do you think it is possible?
