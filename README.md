@@ -1,6 +1,7 @@
 # Project P4 milestone
 
 ```project.ipynb``` is our final notebook.
+
 ```plots.ipynb``` is a notebook that produces html plots with the plotly library.
 ## Data story can be found [here](https://sofiadandjee.github.io).
 
