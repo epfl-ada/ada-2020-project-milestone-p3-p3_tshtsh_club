@@ -1,5 +1,8 @@
 # Project P4 milestone
 
+## Data story can be found [here](https://sofiadandjee.github.io).
+
+## HTML rendered Jupyter notebook can be found [here](https://nbviewer.jupyter.org/github/SofiaDandjee/food_for_thought/blob/main/project.ipynb).
 
 ## 1. Title: Food (and money) for thought
 
