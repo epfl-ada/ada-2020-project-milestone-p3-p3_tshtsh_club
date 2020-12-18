@@ -48,8 +48,8 @@ at a GP practice in England who are affected by type-2 diabetes. This data has b
 
 
 ## 7. Organization within the team
-- Marie: wrangling the data, computing the health diet score + data story/report
-- Sofia: computing the correlations and fitting the linear regressions + video pitch
-- Héloïse: map visualization, plotting the results + data story/report
+- Marie: computing the health diet score + plotting the results + data story
+- Sofia: wrangling the data + map visualization + data story
+- Héloïse: computing the correlations and fitting the linear regressions + plotting the results + data story
 
 
