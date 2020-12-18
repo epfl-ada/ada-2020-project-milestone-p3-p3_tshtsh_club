@@ -1,5 +1,6 @@
 # Project P3 milestone
 
+
 ## 1. Title: Food (and money) for thought
 
 
@@ -10,16 +11,25 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 
 
 ## 3. Research Questions
+- What is the average diet of a Londoner?
 - What constitutes a healthy diet?
 - What is the proportion of food related expenditure in each borough? How does it relate to its economic situation?
 - How does a healthy diet relates to the borough's economic situation? Is this connection area-dependent?
 
+
 ## 4. Proposed datasets
-- [Grocery purchases, Borough](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
-- [Earnings by Place of Residence, Borough](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We will only consider the median weekly earnings per borough in 2015, averaged between full-time and part-time.
-- [Children poverty, Borough](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We will only take into accout the percentage of children in low-income families per borough in 2015.
+- [Grocery purchases](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
+- [Prevalence of overweight and obese children](https://data.london.gov.uk/dataset/prevalence-childhood-obesity-borough) from the English National Health Service (NHS): fractions of overweight and obese primary school children in Reception class (aged 4 to 5) and year 6 (aged 10 to 11), sampled across wards in the 2013–2014 school year.
+- [Prevalence of overweight and obese adults](https://data.london.gov.uk/dataset/obesity-adults) from the Active People Survey (APS): fractions of overweight 
+and obese individuals among a statistical sample of borough residents in 2012
+- [Diabetes prevalence](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-
+data/quality-and-outcomes-framework-qof-2016-17) from the English National Health Service (NHS): fraction of adults among those registered 
+at a GP practice in England who are affected by type-2 diabetes. This data has been collected for year 2015 at ward level.
+- [Earnings by Place of Residence](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We will only consider the full-time weekly earnings per borough in 2015.
+- [Children poverty](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We will only take into accout the children (dependent children under the age of 20) in child benefit families per borough in 2015.
 - [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We will transform the data concerning food expenditure in percentage of the total expenditure over the year 2015.
 - [Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london): geolocalization of London's areas. We will use the boundaries of the boroughs as at 2011 for visualization purposes.
+
 
 ## 5. Methods
 - Visualize the wealth differences between areas based on gross earnings and child poverty.
