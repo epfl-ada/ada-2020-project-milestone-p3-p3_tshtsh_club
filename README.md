@@ -1,4 +1,4 @@
-# Project P3 milestone
+# Project P4 milestone
 
 
 ## 1. Title: Food (and money) for thought
@@ -10,7 +10,7 @@ Keeping a good and balanced diet is fundamental to having a healthy life as it h
 Our goal is to provide insight on the food consumption discrepancies between different boroughs of Greater London. We explore the link between the economic situations of households and their food purchases. To measure the level of wealth in each area, we study the income and children poverty per borough provided by the London Datastore. We compare them to the nutritional properties of each borough’s typical product given in the Tesco Grocery 1.0 dataset. 
 
 
-## 3. Research Questions
+## 3. Research questions
 - What is the average diet of a Londoner?
 - What constitutes a healthy diet?
 - What is the proportion of food related expenditure in each borough? How does it relate to its economic situation?
