@@ -17,7 +17,7 @@ Our goal is to provide insight on the food consumption discrepancies between dif
 - How does a healthy diet relates to the borough's economic situation? Is this connection area-dependent?
 
 
-## 4. Proposed datasets
+## 4. Datasets used
 - [Grocery purchases](https://figshare.com/articles/dataset/Area-level_grocery_purchases/7796666?backTo=/collections/Tesco_Grocery_1_0/4769354) from the Tesco Grocery 1.0 dataset presented in the paper:  aggregated information on food purchases, enriched with information coming from the census at the level of boroughs.
 - [Prevalence of overweight and obese children](https://data.london.gov.uk/dataset/prevalence-childhood-obesity-borough) from the English National Health Service (NHS): fractions of overweight and obese primary school children in Reception class (aged 4 to 5) and year 6 (aged 10 to 11), sampled across wards in the 2013–2014 school year.
 - [Prevalence of overweight and obese adults](https://data.london.gov.uk/dataset/obesity-adults) from the Active People Survey (APS): fractions of overweight 
@@ -25,26 +25,27 @@ and obese individuals among a statistical sample of borough residents in 2012
 - [Diabetes prevalence](https://digital.nhs.uk/data-and-information/publications/statistical/quality-and-outcomes-framework-achievement-prevalence-and-exceptions-
 data/quality-and-outcomes-framework-qof-2016-17) from the English National Health Service (NHS): fraction of adults among those registered 
 at a GP practice in England who are affected by type-2 diabetes. This data has been collected for year 2015 at ward level.
-- [Earnings by Place of Residence](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We will only consider the full-time weekly earnings per borough in 2015.
-- [Children poverty](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We will only take into accout the children (dependent children under the age of 20) in child benefit families per borough in 2015.
-- [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We will transform the data concerning food expenditure in percentage of the total expenditure over the year 2015.
-- [Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london): geolocalization of London's areas. We will use the boundaries of the boroughs as at 2011 for visualization purposes.
+- [Earnings by Place of Residence](https://data.london.gov.uk/dataset/earnings-place-residence-borough): gross earnings of employees by place of residence. We only considered the full-time weekly earnings per borough in 2015.
+- [Children poverty](https://data.london.gov.uk/dataset/children-poverty-borough): numbers and percentages of children in poverty for Borough and London Wards (at 31 August each year). We only took into accout the children (dependent children under the age of 20) in child benefit families per borough in 2015.
+- [London Consumer Expenditure Estimates - Detailed Borough Base](https://data.london.gov.uk/dataset/london-consumer-expenditure-estimates-2011-2036): consumer expenditure data to 2036 broken down by London borough. We transformed the data concerning food expenditure in percentage of the total expenditure over the year 2015.
+- [Statistical GIS Boundary Files for London](https://data.london.gov.uk/dataset/statistical-gis-boundary-files-london): geolocalization of London's areas. We used the boundaries of the boroughs as at 2011 for visualization purposes.
 
 
 ## 5. Methods
-- Visualize the wealth differences between areas based on gross earnings and child poverty.
-- Compute and visualize the proportion of food related expenditure in each borough.
-- Compute the Spearman rank correlation between the proportion of food related expenditure and the wealth across areas.
+- Visualize the average diet of a Londoner.
 - Compute a healthy diet score based on the nutritional properties of each borough’s typical product.
 - Visualize the healthy diet score differences between areas.
+- Compute and visualize the proportion of food related expenditure in each borough.
+- Visualize the wealth differences between areas based on gross earnings and child poverty.
 - Compute the Spearman rank correlation between the food health score and the earnings of employees, the percentage of children in poverty and the percentage of food expenditure. 
 - Run a linear regression to predict the food health score from the highest correlated factors found previously and other control variables accounting for demographics and store penetration. If a high goodness of fit is obtained regarding the <i>R<sup>2</sup></i> coefficient, it will indicate that these economic factors are representative of the food diet quality. 
 
 
-## 6. Proposed timeline
-- 27th of November - 4th of December:  creative extension analysis notebook
-- 4th of December - 11th of December: creative extension data story/report and video pitch
-- 11th of December - 18th of December: individual update of the replication notebook 
+## 6. Timeline
+- 27th of November - 4th of December: creative extension analysis
+- 4th of December - 11th of December: creative extension analysis + individual update of the replication notebook 
+- 11th of December - 18th of December: creative extension plots + data story
+-18th of December - 23rd of December: video pitch
 
 
 ## 7. Organization within the team
@@ -53,10 +54,3 @@ at a GP practice in England who are affected by type-2 diabetes. This data has b
 - Héloïse: map visualization, plotting the results + data story/report
 
 
-## 8. Questions for TAs 
-We thought of several ways to compute the healthy diet score:
-- Only take into account the energy from carbs (<i>energy-carbs</i>) and the entropy of nutrients (<i>H<sub>energy-nutrients</sub></i>), the two-highest correlated nutritional properties with the prevalence of diabetes, as seen in the paper.
-- Use the recommendations from the [World Health Organization](https://www.who.int/news-room/fact-sheets/detail/healthy-diet): we compute n criterias that make a diet healthy and that are either 0 or 1 depending on if they are fulfilled or not: fat criteria (< 30% of total energy intake), saturated fat criteria (< 10% of total energy intake), sugars criteria (< 10% of total energy intake), etc... We obtain a final score between 0 and n, out of n.
-- Compute the score with a weighted sum of all the nutrients' energy. We choose those weights as the correlation coefficients with diabetes that are found in the paper. 
-
-Do you have an idea of what would be the best score? How can we validate that the computed healthy diet score is representative of the people health in an unbiased manner?
