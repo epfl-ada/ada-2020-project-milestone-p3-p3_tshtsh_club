@@ -2,7 +2,7 @@
 
 ```project.ipynb``` is our final notebook.
 
-```plots.ipynb``` is a notebook that produces html plots with the plotly library.
+```plots.ipynb``` is a notebook that produces our html plots with the plotly library.
 ## Data story can be found [here](https://sofiadandjee.github.io).
 
 ## HTML rendered Jupyter notebook can be found [here](https://nbviewer.jupyter.org/github/SofiaDandjee/food_for_thought/blob/main/project.ipynb).
